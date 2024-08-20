@@ -33,6 +33,7 @@ public class telaprincipal extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         jToggleButton1.setText("jToggleButton1");
@@ -73,6 +74,10 @@ public class telaprincipal extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(110, 210, 72, 23);
 
+        jLabel4.setText("Login Sistema");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(170, 20, 90, 16);
+
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logojava.jpg"))); // NOI18N
         jLabel3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel3.setMaximumSize(new java.awt.Dimension(300, 200));
@@ -80,7 +85,7 @@ public class telaprincipal extends javax.swing.JFrame {
         jLabel3.setPreferredSize(new java.awt.Dimension(300, 200));
         jLabel3.setVerifyInputWhenFocusTarget(false);
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(-140, -10, 630, 520);
+        jLabel3.setBounds(-130, -10, 630, 520);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -136,6 +141,7 @@ public class telaprincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JToggleButton jToggleButton1;
     // End of variables declaration//GEN-END:variables
 }
